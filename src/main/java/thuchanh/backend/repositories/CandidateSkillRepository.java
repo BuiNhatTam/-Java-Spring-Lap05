@@ -7,5 +7,5 @@ import thuchanh.backend.models.Skill;
 import java.util.List;
 
 public interface CandidateSkillRepository extends JpaRepository<CandidateSkill, Skill> {
-    List<CandidateSkill> findByCan_Id(Long candidateId);
+
 }
